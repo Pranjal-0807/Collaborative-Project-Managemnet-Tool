@@ -9,7 +9,7 @@ const AddSubtask = () => {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const baseUrl = "https://hb-y6dh.onrender.com/subtasks";
+  const baseUrl = "https://collaborative-project-managemnet-tool.onrender.com/subtasks";
 
   useEffect(() => {
     const fetchSubtasks = async () => {

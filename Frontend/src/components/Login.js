@@ -26,7 +26,7 @@ const Login = ({ setLoginStatus }) => {
     }
 
     try {
-      const response = await fetch("https://hb-y6dh.onrender.com/auth/login", {
+      const response = await fetch("https://collaborative-project-managemnet-tool.onrender.com/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

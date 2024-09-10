@@ -6,7 +6,7 @@ const Completed = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const url = "https://hb-y6dh.onrender.com/tasks";
+  const url = "https://collaborative-project-managemnet-tool.onrender.com/tasks";
 
   useEffect(() => {
     const fetchTasks = async () => {
